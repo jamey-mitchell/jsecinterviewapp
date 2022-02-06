@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "C#",
+        "description": "I've been coding in C# for over a decade, and once upon a time obtained a certification of my skills from Microsoft."
+    },
+    {
+        "id": 2,
+        "name": "JavaScript",
+        "description": "I can write raw JavaScript, but have found that Typescript is much more efficient, as it allows for the detection and correction of script errors at compile time. I've built apps for the past few years in Angular and AngularJS, and I've also worked with many other JavaScript frameworks and libraries. I am comfortable with Node and npm, and now I've started a journey to learn React!"
+    },
+    {
+        "id": 3,
+        "name": "A Gracious Professional",
+        "description": "I always strive to be a patient, kind, gentle professional who is passionate about what we are doing, but always exhibiting self-control and empathy for others."
+    }
+]
