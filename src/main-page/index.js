@@ -16,10 +16,6 @@ function App() {
   // leaving that array empty, as in this example, causes the function to execute just once,
   // when the component is first rendered.
   useEffect(() => {
-    // Simple GET request using fetch
-//    fetch('https://api.npms.io/v2/search?q=react')
-//        .then(response => response.json())
-//        .then(data => this.setState({ totalReactPackages: data.total }));
     const fetchSkills = async () => {
       const response = await fetch("https://jsecinterviewwebapiexampleapi.azure-api.net/weatherforecast");
       const skills = await response.json();
