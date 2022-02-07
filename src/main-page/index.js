@@ -8,7 +8,7 @@ function App() {
   // the useState function returns an array containing two items
   // the first is the variable that will reflect the value of the state
   // and the second is the function to set it
-  const [allSkills, setAllSkills] = useState([{ name: "Loading...", description: "don't really need this"}]);
+  const [allSkills, setAllSkills] = useState([{ name: "Loading...", description: "be patient please"}]);
 
   // useEffect is a hook from the react library that enables us to create side effects when the state of a component changes
   // a hook is a function that takes two parameters, the first is a function
@@ -17,7 +17,7 @@ function App() {
   // when the component is first rendered.
   useEffect(() => {
     const fetchSkills = async () => {
-      const response = await fetch("https://jsecinterviewwebapiexampleapi.azure-api.net/weatherforecast");
+      const response = await fetch("https://jsecinterviewwebapiexampleapi.azure-api.net/skills");
       const skills = await response.json();
       setAllSkills(skills);
     };
