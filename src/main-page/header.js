@@ -7,6 +7,12 @@ import logo from "./jsec.png";
 const Header = ({ subtitle }) => (
     <header className="row header bg-secondary">
         <div className="col">
+            {/** Remember, JSX is not HTML. 
+             * This img component, for example, has what looks like a src attribute
+             * but it is actually a prop, something that the component gets as an argument
+             * The passed in value to the prop is an expression, enclosed in curly braces
+             * Webpack will replace this with the actual location of the logo, imported above
+             */}
             <img src={logo} className="logo" alt="logo" />
         </div>
         <div className="col subtitle">
